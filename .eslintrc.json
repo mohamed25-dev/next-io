@@ -1,4 +1,7 @@
 {
   "extends": "next/core-web-vitals",
-  "@next/next/no-document-import-in-page": "off"
+  "rules": {
+    "react/display-name": "off",
+    "@next/next/no-document-import-in-page": "off"
+  }
 }
